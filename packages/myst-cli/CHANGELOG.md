@@ -1,5 +1,21 @@
 # myst-cli
 
+## 1.13.0
+
+### Minor Changes
+
+- 8055648: Add a `searchable` option to `file` and `pattern` TOC entries. Hidden pages are now left out of search unless they set `searchable: true`.
+
+### Patch Changes
+
+- Updated dependencies [8055648]
+  - myst-toc@0.2.0
+  - myst-frontmatter@1.10.3
+  - myst-common@1.10.3
+  - myst-config@1.10.3
+  - myst-spec-ext@1.10.3
+  - myst-migrate@1.13.0
+
 ## 1.12.0
 
 ### Minor Changes
